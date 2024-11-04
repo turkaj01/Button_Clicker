@@ -1,0 +1,90 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.header {
+    display: flex;
+    background-color: #cccccc;
+    width: 60%;
+    margin-left: 20%;
+    height: 60px;
+    align-items: center;
+    justify-content:space-between;
+}
+.header h1 {
+    margin-left: 20px;
+    font-weight: lighter;
+}
+.header button {
+    margin-right: 20px;
+    background-color: #2b78e4;
+    width: 10%;
+    border-style: none;
+    box-shadow: 3px 3px black;
+    color: white;
+}
+.header input {
+    width: 28%;
+    border: 1px solid black;
+}
+.ninja {
+width: 60%;
+border: 2px solid black;
+height: 150px;
+display: flex;
+align-items: center;
+margin-top: 20px;
+
+}
+.first-row {
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+}
+.second-column {
+    width: 50%;
+    margin-left: 12%;
+}
+.first-column {
+    margin-left: 5%;
+    line-height: 0.5rem;
+}
+.first-column h1 {
+    font-weight: lighter;
+    margin: 0px;
+}
+.first-column p {
+    margin: opx;
+}
+.first-column button {
+    width: 80%;
+    height: 28px;
+    border-radius: 0%;
+    border-style: none;
+    background-color: #ffd966;
+    box-shadow: 3px 3px black;
+    border: 2px solid black;
+}
+.dojonary {
+    width: 35%;
+    height: 110px;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+.dojonary p {
+    margin: 11px 0px 0px 8px;
+    font-size: 23px;
+}
+.dojonary span {
+    font-weight: bolder;
+}
+.dojonary button {
+    width: 85%;
+    margin-left: 7%;
+    height: 28px;
+    border-radius: 0%;
+    border-style: none;
+    background-color: #93c47d;
+    box-shadow: 3px 3px black;
+    border: 2px solid black;
+}
